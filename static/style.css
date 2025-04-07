@@ -1,0 +1,70 @@
+@font-face {
+    font-family: monserrat;
+    src: url(/static/Fonts/Montserrat-Regular.ttf);
+}
+:root{
+    --monserrat-font:'monserrat',
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--monserrat-font) Verdana, sans-serif;
+    line-height: initial;
+    font-weight: initial;
+}
+.card-charla{
+    border: none; background-size: 12px 100%; background-repeat: no-repeat;box-shadow: rgba(0, 0, 0, 0.15) 4.4px 4.4px 7.2px; border-radius: 25px; padding-left: 18px; text-decoration: none;color: black;
+}
+.card-red{
+    background-image: url('./images/fondo-rojo.png')
+}
+.card-yellow{
+    background-image: url('./images/fondo-amarillo.png')
+}
+.card__data{
+    text-decoration: none !important;color: black !important;
+}
+.card-red-line-separator{
+    border: solid #D20000 2px;
+    opacity: 1;
+
+}
+.card-yellow-line-separator{
+    border: solid #FFD44B 2px;
+    opacity: 1;
+}
+.fecha-number{
+    font-size: 58px; line-height: 1.2;
+}
+.size-19{
+    font-size: 19px !important;
+}
+.card-yellow-dates{
+    padding-left: 3rem !important;
+}
+.card-red-dates .size-text{
+    font-size: 14.5px !important;
+}
+
+/* filtros */
+input.search{
+    all: unset;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    width: 100%;
+}
+.no-filters{
+    text-decoration: underline;
+    color: black;
+    cursor: pointer;
+}
+.no-filters:hover{
+    color: #D20000;
+}
