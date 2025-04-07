@@ -1,1 +1,1 @@
-# buscador-eventos
+# Buscador de eventos de una institución
